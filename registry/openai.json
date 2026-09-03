@@ -1,0 +1,42 @@
+{
+  "company": {
+    "name": "OpenAI",
+    "country": "United States",
+    "website": "https://openai.com",
+    "status": "Official"
+  },
+  "bots": [
+    {
+      "name": "GPTBot",
+      "category": "AI Training",
+      "fingerprints": [
+        "GPTBot"
+      ],
+      "official": true
+    },
+    {
+      "name": "OAI-SearchBot",
+      "category": "AI Search",
+      "fingerprints": [
+        "OAI-SearchBot"
+      ],
+      "official": true
+    },
+    {
+      "name": "ChatGPT-User",
+      "category": "User Retrieval",
+      "fingerprints": [
+        "ChatGPT-User"
+      ],
+      "official": true
+    },
+    {
+      "name": "ChatGPT Agent",
+      "category": "Browser Agent",
+      "fingerprints": [
+        "Signature-Agent"
+      ],
+      "official": true
+    }
+  ]
+}
