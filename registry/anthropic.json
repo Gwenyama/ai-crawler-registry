@@ -1,0 +1,57 @@
+{
+  "id": "anthropic",
+  "company": "Anthropic",
+  "country": "United States",
+  "website": "https://anthropic.com",
+  "models": [
+    "Claude"
+  ],
+  "capabilities": {
+    "training": true,
+    "search": true,
+    "user_retrieval": true,
+    "browser_agent": false
+  },
+  "verification": {
+    "published_ip_ranges": true,
+    "reverse_dns": false,
+    "cloudflare_verified": true,
+    "web_bot_auth": false
+  },
+  "bots": [
+    {
+      "id": "claudebot",
+      "name": "ClaudeBot",
+      "category": "training",
+      "match": [
+        "ClaudeBot",
+        "ClaudeBot/"
+      ],
+      "robots_token": "ClaudeBot",
+      "official": true,
+      "documentation": "https://support.anthropic.com/"
+    },
+    {
+      "id": "claude-searchbot",
+      "name": "Claude-SearchBot",
+      "category": "search",
+      "match": [
+        "Claude-SearchBot"
+      ],
+      "robots_token": "Claude-SearchBot",
+      "official": true,
+      "documentation": "https://support.anthropic.com/"
+    },
+    {
+      "id": "claude-user",
+      "name": "Claude-User",
+      "category": "user_retrieval",
+      "match": [
+        "Claude-User"
+      ],
+      "robots_token": "Claude-User",
+      "official": true,
+      "documentation": "https://support.anthropic.com/"
+    }
+  ]
+}
