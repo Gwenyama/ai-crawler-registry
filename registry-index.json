@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-09-03",
+  "providers": [
+    "registry/openai.json",
+    "registry/anthropic.json",
+    "registry/google.json",
+    "registry/microsoft.json",
+    "registry/meta.json",
+    "registry/apple.json",
+    "registry/amazon.json",
+    "registry/perplexity.json",
+    "registry/mistral.json",
+    "registry/deepseek.json",
+    "registry/moonshot.json",
+    "registry/alibaba.json",
+    "registry/baidu.json",
+    "registry/bytedance.json",
+    "registry/huawei.json",
+    "registry/zhipu.json",
+    "registry/yandex.json",
+    "registry/wrtn.json",
+    "registry/naver.json",
+    "registry/qwant.json",
+    "registry/mojeek.json",
+    "registry/research.json"
+  ]
+}
